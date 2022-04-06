@@ -4,7 +4,7 @@ Autoencoders can shrink the inputs down into just a few nodes in the middle of t
 # II.	Model
 To start I found a TensorFlow tutorial for noise reduction autoencoders. I switched the dataset from a fashion dataset to a number dataset. Using the model architecture from the tutorial yielded only black screens as its outputs.
  
-![first output](/repository/assets/not_working.png "Title")
+![first output](/assets/not_working.png "Title")
  
 After changing the convolutional layers to dense layers, I got actual numbers to appear, however, there was still noise leftover in the image.
  
